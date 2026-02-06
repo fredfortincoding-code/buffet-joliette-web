@@ -40,6 +40,12 @@ Open [http://localhost:3000](http://localhost:3000) to see the result.
 
 ## 🔄 Latest Updates (2026-02-06)
 
+### v1.1.0 - The "Functionality" Update
+- **Reservation System**: Built a full-stack reservation engine.
+- **SQLite Integration**: Added persistent storage for customer bookings.
+- **Admin Dashboard**: Created a private route (`/admin`) to view all incoming reservations.
+- **Form UI**: Implemented a responsive, trendy reservation form with real-time feedback.
+
 ### v1.0.0 - The "Joliette Launch"
 - **Project Initialized**: Next.js 15 bootstrap with TypeScript.
 - **Hero Asset Generated**: Created high-resolution DALL-E 3 imagery for the main landing page.

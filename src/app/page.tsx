@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ReservationForm from "@/components/ReservationForm";
 
 export default function Home() {
   return (
@@ -79,6 +80,13 @@ export default function Home() {
             <h3 className="text-xl font-bold mb-2">Pas Cher</h3>
             <p className="text-slate-500">Le meilleur rapport qualité-prix de la région de Lanaudière.</p>
           </div>
+        </div>
+      </section>
+
+      {/* Reservation Section */}
+      <section id="reserve" className="py-20 px-4">
+        <div className="max-w-3xl mx-auto">
+          <ReservationForm />
         </div>
       </section>
 

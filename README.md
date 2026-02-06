@@ -40,6 +40,11 @@ Open [http://localhost:3000](http://localhost:3000) to see the result.
 
 ## 🔄 Latest Updates (2026-02-06)
 
+### v1.1.1 - The "QA & Mobile" Audit
+- **Security Audit**: Passed a full scan using the `code-qa` skill. Verified no hardcoded secrets and safe database interactions.
+- **Mobile Optimization**: Verified responsive layouts for the Reservation Form and Admin Dashboard.
+- **Accessibility**: Added ARIA labels and improved semantic HTML for screen readers.
+
 ### v1.1.0 - The "Functionality" Update
 - **Reservation System**: Built a full-stack reservation engine.
 - **SQLite Integration**: Added persistent storage for customer bookings.

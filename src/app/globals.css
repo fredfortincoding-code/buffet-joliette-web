@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+    --primary: 243 75% 59%; /* Indigo 600 */
+    --accent: 271 91% 65%;  /* Purple 500 */
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/80 backdrop-blur-md border border-white/20;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#6366f1] to-[#a855f7];
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-br from-[#6366f1] to-[#a855f7];
+  }
+  
+  .card-trendy {
+    @apply bg-white rounded-[1.5rem] shadow-xl shadow-slate-200/50 p-6 border border-slate-100;
+  }
+}
